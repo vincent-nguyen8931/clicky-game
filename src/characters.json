@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "img/Amy.png"
+  },
+  {
+    "id": 2,
+    "image": "./img/Adrian.png"
+  },
+  {
+    "id": 3,
+    "image": "./img/Charles.png"
+  },
+  {
+    "id": 4,
+    "image": "./img/Doug.png"
+  },
+  {
+    "id": 5,
+    "image": "./img/Gina.png"
+  },
+  {
+    "id": 6,
+    "image": "./img/Hitchcock.png"
+  },
+  {
+    "id": 7,
+    "image": "./img/Holt.png"
+  },
+  {
+    "id": 8,
+    "image": "./img/Jake.png"
+  },
+  {
+    "id": 9,
+    "image": "./img/Kevin.png"
+  }
+]
