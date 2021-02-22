@@ -1,38 +1,50 @@
 [
   {
     "id": 1,
-    "image": "img/Amy.png"
+    "image": "https://i.imgur.com/BPeIRyY.png"
   },
   {
     "id": 2,
-    "image": "./img/Adrian.png"
+    "image": "https://i.imgur.com/XOUiOvx.png"
   },
   {
     "id": 3,
-    "image": "./img/Charles.png"
+    "image": "https://i.imgur.com/wEFJfnG.png"
   },
   {
     "id": 4,
-    "image": "./img/Doug.png"
+    "image": "https://i.imgur.com/T2k2fd4.png"
   },
   {
     "id": 5,
-    "image": "./img/Gina.png"
+    "image": "https://i.imgur.com/n5Ew4Qy.png"
   },
   {
     "id": 6,
-    "image": "./img/Hitchcock.png"
+    "image": "https://i.imgur.com/EkE3hbQ.png"
   },
   {
     "id": 7,
-    "image": "./img/Holt.png"
+    "image": "https://i.imgur.com/NERggyx.png"
   },
   {
     "id": 8,
-    "image": "./img/Jake.png"
+    "image": "https://i.imgur.com/eQAAyxs.png"
   },
   {
     "id": 9,
-    "image": "./img/Kevin.png"
+    "image": "https://i.imgur.com/N4OL6fs.png"
+  },
+  {
+    "id": 10,
+    "image": "https://i.imgur.com/agm9YS9.png"
+  },
+  {
+    "id": 11,
+    "image": "https://i.imgur.com/roSSFB6.png"
+  },
+  {
+    "id": 12,
+    "image": "https://i.imgur.com/PY2UCsQ.png"
   }
 ]

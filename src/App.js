@@ -10,7 +10,7 @@ function App() {
       <row>
         <div>
           {characters.map(character => (
-            <img src={character.image}></img>
+            <img src={character.image} style={{height:"128px"}}/>
           ))}
 
 
