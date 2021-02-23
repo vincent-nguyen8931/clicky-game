@@ -1,12 +1,11 @@
 # clicky-game
 
-
-![image]()
+![image](Clicky-game-landing-page.png)
 
 Description
 ------------
 
-Tracker will track current workout being performed. Exercises can be added throughout the workout. Plus there is a stats page giving an infographic of the exercises that have been performed. The frontend files were given by Trilogy. 
+Game where you have to guess the correct image by clicking on it. You get 1 point for every correct image. Clicking the wrong image makes you lose the game.
 
  Table of contents
 ---------------
@@ -19,34 +18,33 @@ Tracker will track current workout being performed. Exercises can be added throu
 
 Tools used
 -------------------
-* Express - Link front end and back end together via routes.
 * GitBash - Assist with version control via commits, push, and pull to and from GitHub.
 * GitHub - Site where the repository lies for deployment and edits.
-* MongoDB - Stores the data of the exercises being performed.
-* Mongoose - Object data modeler allowing for creation of models to be used with mongoDB.
-* Node.js - Build the template and all functions in application. 
+* React - Library to help build frontend user interfaces. 
 * VS Code - Application used to write and edit code for the application.
 
 Deployed here
 -------------
 
 Below is the link to the deployed site. <br />
-[Link to deployed site](https://personal-workout-tracking.herokuapp.com/)
+[Link to deployed site](https://vincent-nguyen8931.github.io/clicky-game/)
 
 
 Features
 ------------------
 
-The application utilizes the MVC architecture. This allows for nice organization of the files by their purpose. There is also continuous calculations of all the exercises performed throughout the workout to keep the user up to date with what they have done. 
+The application utilizes React to display the entire code on a single page. Using react allows for an easier way to incorporate javascript code into a template literal style html. This allows data to be directly input into the html instead of routing from other files. However, the use of multiple components is still viable if the developer wishes to use classes. 
+
+The below code snippet utilizes the character.json file and map to display each image. On top of that, the styling also modifies the image to be a set height of 128 pixels and has an onclick listener for each image. This allows further actions to be performed on the images.
+```
+ {characters.map(character => (
+         < img src={character.image} style={{ height: "128px" }} onClick={handleClick}/>
+         ))}
+```
 
 Lessons learned
 ---------------------
-The biggest struggle with this application has been to find the proper routes to create in order to link with the existing frontend files. I believe I had gotten the routes correct and functional however no data is being passed from the frontend to the backend, specifically to the file workout.js in the public folder. This hiccup has taken a significant time to debug and no resolution has been reached.
-
-There is a task to have another field created dynamically that adds the total length of workout time based on every exercise done. This test could not be performed due to the above task being unsolved.
-
-These combined errors have also made it so that the application on Heroku will not load. I imagine that once these issues have a solution along with no other errors coming up, the app will run with mongoDB on Heroku.
-
+Dealing with React made some parts complicated and some parts easier. My most difficult challenge has been to bridge the gap of past knowledge and these new React concepts as React did not always take in direct javascript. Some of the solutions I had come up with would cause the application to crash due to memory errors. For this application, I believe seeking further assistance would have been a great step in accomplishing the asks required. 
 
 Credits
 ---------------
